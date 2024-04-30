@@ -1,0 +1,124 @@
+
+.indexBody{
+    background-image: url('images/tomato.jpg');
+    background-repeat: no-repeat;
+    background-position:  center 420px;
+    background-attachment: fixed;
+    
+}
+.image1{
+    width: 50%;
+}
+.demo1{
+    width: 70%;
+    min-width: 500;
+    /* max-width: 700; */
+    height: 200%;
+    /* background-color: yellow; */
+    overflow: auto;
+    margin: auto;
+}
+.displayDiv{
+    border: 3px solid  rgb(197, 74, 189);
+    width: 70%;
+    margin: auto;
+}
+.display{
+    background-color: coral;
+    margin: 0;
+    padding: 10px;
+}
+.ulclass{
+    background-color: rgb(197, 74, 189);
+    margin: 0;
+    padding: 0 10px;
+    
+}
+.list{
+    display: inline-block;
+    
+    line-height: 50px;
+    padding: 5px;
+    
+    
+}
+.list:hover{
+    background-color: black;
+    box-shadow:  0 0  10px   coral;
+    border-radius: 20px 0;
+}
+.linkClass{
+    color: rgb(242, 244, 245);
+    text-decoration: none;
+}
+.customClass{
+    list-style-image: url('images/carrot_min.jpg');
+    
+}
+.customListClass2{
+    background-image: url('images/carrot_min.jpg');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 5%;
+    background-position: 0 3px;
+}
+.t1{
+    border: 3px solid crimson;
+    border-spacing:2px ;
+    border-collapse: separate;
+    width: 85%;
+  }
+  tr,th,td{
+    border: 1px solid crimson;
+    padding: 5px;
+  }
+  .days{
+    text-align: left;
+  }
+ .time{
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+ }
+ .table-caption{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .tow-form{
+    width: 70%;
+    margin: auto;
+     
+ }
+ .feildset-class{
+     border: 2px solid crimson;
+     border-radius: 15px;
+     margin-bottom: 25px;
+     padding-left: 40px;
+ }
+ .legend-class{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: -30px;
+ }
+ .position-class{
+    /* position: relative; */
+    position: static;
+    left: 20px;
+    top :-40px;
+    
+ }
+ .displayDiv{
+    position: fixed;
+    left: 13%;
+    top: 0;
+ }
+ .demo1{
+    padding-top: 8%;
+    
+ }
+ .image1{
+    float: left;
+ }
+  
